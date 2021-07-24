@@ -1,0 +1,172 @@
+
+
+
+
+
+body{
+  text-align:center ; 
+  font-family:Open Sans,sans-serif; ; 
+  background-color:#fff;
+  margin:0px 0px 30px 0px;
+  color:#000
+  width: 200px; 
+}
+
+//////////////////////////////////////////////////////////////////
+ul{
+  list-style-type:none; 
+  line-height:2;
+  padding-left: 0;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+  font-weight:700;
+}
+
+.principal{
+  background-color: #8d5212;
+  height: 40px;
+  max-width:60%;
+  margin:0 auto;
+  border-radius: 8px;
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+   margin: 0 89px;
+}
+
+.principal a{
+  color:#fff;
+  font-weight:500;
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+
+#Home{
+  justify-content: center;
+  color: #000;
+}
+
+//////////////////////////////////////////////////////////////////////////
+
+#Produtos{
+  color: #000;;
+  margin-bottom:8px 
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+img{
+    width: 50px;
+}
+
+.card-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{ 
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    flex-basis: 20%;
+}
+
+.description{
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 10px;
+
+}
+
+ .price{ 
+     font-weight: 600;
+     padding:5px ; 
+ }
+
+ .botao{
+  margin: 5px 0px;
+  padding:5px ;
+  border-radius: 10px;
+  border: 3px solid black;
+ }
+
+ .botao:hover{
+     cursor: pointer;
+     background-color: #61380B;
+     color: #fff;
+ }
+
+ @media(max-widht: 700px){
+     .botao{
+         width: 100%;
+         border-radius: 0;    
+     }
+
+     .card{
+      flex-basis: 100%;
+     }
+
+     .description{
+         display: none;
+     }
+
+     .img {
+         display: none;
+     }
+  }
+///////////////////////////////////////////////////////
+  h3{
+     font-size: 10px:
+  }
+ 
+ 
+  //////////////////////////////////////////////////////////////
+  #Contato{
+    border-radius: 8px; 
+    color: #ffff;
+    background-color: #8d5212;
+  
+  }
+
+  #submit{
+    background-color:#fff;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 8px;
+    border-color: black;
+  }
+
+  input{
+    text-align: center;
+    border: 1px solid transparent;
+    font-weight:500;
+    margin-bottom:8px;
+  }
+   #email{
+     border-radius: 8px;
+     border-color: black;
+   }
+ 
+   #nome{
+     border-radius: 8px;
+     border-color: black;
+   }
+ 
+///////////////////////////////////////////////////////////////////
+   
+ 
+   
+   
+ 
+   
+ 
