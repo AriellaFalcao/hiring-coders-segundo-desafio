@@ -3,31 +3,34 @@
 <html lang="pt-BR">
 
     <head>
-        <script src="inventario.js"> </script> 
+      <script src="inventario.js"> </script> 
       <title> Desafio 2 HC - GitHub</title>       
-      <link href="style.css" rel="stylesheet">
+      <link href="forms.css" rel="stylesheet">
       <meta charset="UTF-8">
       <meta name="author" content="Ariella Giraldi Falcão">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
     <body>
+        <div>
 
         <form id="form" onsubmit="salvarInventario()">
             
-            <label>Nome do Produto:</label>
-            <input id="nomeProduto" type="text" placeholder="Digite o nome do produto">
-            <label>Quantidade do Produto:</label>
-            <input id="quantidadeProduto" type="text" placeholder="Digite quantidade">
-            <label>Características:</label>
-            <input id="caracteristicas" type="text" placeholder="Digite as caracteristicas">
-            <label>Valor Unitário:</label>
-            <input id="valorUnitario" type="text" placeholder="Digite o valor unitário">
+            <label for="nomeProduto">Nome do Produto</label>
+            <input id="nomeProduto" type="text" placeholder="Digite o nome do produto" required>
+            <label for="quantidadeProduto">Quantidade do Produto</label>
+            <input id="quantidadeProduto" type="text" placeholder="Digite quantidade" required>
+            <label for="caracteristicas">Características</label>
+            <input id="caracteristicas" type="text" placeholder="Digite as caracteristicas" required>
+            <label for="valorUnitario">Valor Unitário</label>
+            <input id="valorUnitario" type="text" placeholder="Digite o valor unitário" required>
 
 
             <button class="btn"id="submit" type="submit">Salvar</button>
 
         </form>
+
+        </div>
    
     </body>   
 
