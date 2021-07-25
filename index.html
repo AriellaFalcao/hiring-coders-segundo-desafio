@@ -11,42 +11,42 @@
 
     </head>
     <body>
+
         <header> 
-
-            <div class="primeira">
-
-                <p>navegacao</p>
-
-            </div>
-
             <nav class="principal">
-  
                  <ul>      
-  
                   <li>
                       <a href="#Home">Home</a>
                   </li>
-  
                   <li>
                       <a href="#Produtos">Produtos</a>
                   </li>  
-  
                   <li>
                       <a href="#Contato">Contato</a>
                   </li>
-  
+                  <li>
+                    <a href="/inventario.html">ADMIN</a>
+                </li>
+                  <li>
+                    <a onclick="enviarParaPagamento()" id="fecharPedido" title="carrinho">
+                    <img src="assets/cart_icon.png" class="img-carrinho">
+                    </a>
+                    <a class="btn-qtdcarrinho" id="qtdcarrinho" href="#Home">0</a>
+                  </li>
                  </ul>
-  
             </nav>
-
         </header>
 
         <section id="Home">
 
-            <p>home</p>
-
-            <img src="assets/prod2.jpeg" alt="Doces de Chocolates Finos">
-            
+            <div class="card-container">
+                <div class= "texto"> 
+                    <p>Bem vindo a loja de doces CacauCandy, onde você encontrará a maior variedade de doces de cacau da internet.</p>
+                </div>
+                <div class= "card"> 
+                    <img class="img-home" src="assets/img12.jpeg" alt="Doces de Chocolates Finos">
+                </div>
+            </div>
         </section> 
 
         <section id="Produtos">
@@ -57,115 +57,22 @@
 
                 <div class= "card"> 
 
-                    <h3 class="product-name"> Produto </h3>
-                    <img src="post1.jpeg" alt="Doces de Chocolates Finos">
-                    <p  class="description"> Bolo </p>
-                    <span class="price"> Preco: R$ 100,00 </span>
-                    <button class="botao"> Adicionar </button>
-                    <select name="quantidade">
-                        <option value="1">1 unidade</option>
-                        <option value="2">2 unidades</option>
-                        <option value="3">3 unidades</option>
-                    </select> 
+                   
+                    <img src="assets/img13.jpeg" class="img-products" alt="Doces de Chocolates Finos">
+                    <p  class="description"> Bolo de chocolate </p>
+                    <span class="price"> Preco R$ 100,00 </span>
+                    <button class="botao-adicionar"type="button"> Adicionar </button>
 
                 </div>
 
 
                 <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post4.jpeg" alt="Doces de Chocolates Finos">
-                <p  class="description"> Bolo </p>
+          
+                <img src="assets/img8.jpeg" class="img-products" alt="Doces de Chocolates Finos">
+                <p  class="description"> Bolo de morango</p>
                 <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
+                <button class="botao-adicionar" type="button"> Adicionar </button>
                 </div>
-
-
-                <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post5.jpeg" alt="Doces de Chocolates Finos">
-                <p  class="description"> Bolo </p>
-                <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
-                </div>
-
-
-                <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post7.jpeg" alt="Doces de Chocolates Finos">
-                <p  class="description"> Bolo </p>
-                <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
-                </div>
-
-                <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post8.jpeg" alt="Doces de Chocolates Finos">
-                <p class="description"> Bolo </p>
-                <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
-                </div>
-
-
-                <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post9.jpeg" alt="Doces de Chocolates Finos">
-                <p  class="description"> Bolo </p>
-                <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
-                </div>
-
-                <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post8.jpeg" alt="Doces de Chocolates Finos">
-                <p class="description"> Bolo </p>
-                <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
-                </div>
-    
-    
-                <div class= "card"> 
-                <h3 class="product-name"> Produto </h3>
-                <img src="assets/post9.jpeg" alt="Doces de Chocolates Finos">
-                <p  class="description"> Bolo </p>
-                <span class="price"> Preco: R$ 100,00 </span>
-                <button class="botao"> Adicionar </button>
-                <select name="quantidade">
-                    <option value="1">1 unidade</option>
-                    <option value="2">2 unidades</option>
-                    <option value="3">3 unidades</option>
-                </select> 
-                </div>
-
             </div>
 
         </section>
@@ -176,11 +83,11 @@
 
            <div id='content'>
 
-                <form id='form'>
+                <form id='form-email'>
 
                     <input id="nome" type="text" placeholder="Digite seu nome">
                     <input id="email" type="email" placeholder="Digite seu email">
-                    <input id="submit" type="submit" value="Cadastrar">
+                    <button class="botao"id="submit" type="submit">Cadastrar</button>
                 
                 </form> 
 
